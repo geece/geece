@@ -44,14 +44,14 @@ $(document).ready(function() {
 		});
 		
 		$("#bu-demo1").owlCarousel({
-			autoPlay: 3000,
-			items : 3,
-			itemsDesktop : [1199,3],
-			itemsDesktopSmall : [979,3]
+			 navigation : false, // Show next and prev buttons
+			  slideSpeed : 300,
+			  paginationSpeed : 400,
+			  singleItem:true
 		})
 		
 		$("#bu-demo5").owlCarousel({
-			 navigation : true, // Show next and prev buttons
+			  navigation : false, // Show next and prev buttons
 			  slideSpeed : 300,
 			  paginationSpeed : 400,
 			  singleItem:true
