@@ -42,6 +42,20 @@ $(document).ready(function() {
 			itemsDesktop : [1199,3],
 			itemsDesktopSmall : [979,3]
 		});
+		
+		$("#bu-demo1").owlCarousel({
+			autoPlay: 3000,
+			items : 3,
+			itemsDesktop : [1199,3],
+			itemsDesktopSmall : [979,3]
+		})
+		
+		$("#bu-demo5").owlCarousel({
+			 navigation : true, // Show next and prev buttons
+			  slideSpeed : 300,
+			  paginationSpeed : 400,
+			  singleItem:true
+		})
 
 		// OwlCarousel N2
 		$("#owl-demo-1").owlCarousel({

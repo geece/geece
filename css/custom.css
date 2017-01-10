@@ -113,6 +113,23 @@ padding: 8px 12px;
 	width: 100%;
 	height: auto;
 }
+
+
+#bu-demo1 .item{
+	margin: 4px;
+}
+#bu-demo1 .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
 /* Footer */
 
 #footer{
