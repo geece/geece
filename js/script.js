@@ -32,7 +32,7 @@ $(document).ready(function() {
 		wow.init();
 		
 		//MagnificPopup
-		$('.image-link').magnificPopup({type:'image',titleSrc: 'title',});
+		$('.image-link').magnificPopup({type:'image'});
 
     $('.popup-gallery').magnificPopup({
 		delegate: 'a',
