@@ -34,7 +34,7 @@ $(document).ready(function() {
 		//MagnificPopup
 		$('.image-link').magnificPopup({type:'image',titleSrc: 'title',});
 
-$('.popup-gallery').magnificPopup({
+    $('.popup-gallery').magnificPopup({
 		delegate: 'a',
 		type: 'image',
 		tLoading: 'Loading image #%curr%...',
@@ -51,6 +51,55 @@ $('.popup-gallery').magnificPopup({
 			}
 		}
 	});
+	
+	$('.popup-gallery2').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title');
+			}
+		}
+	});
+	
+	$('.popup-gallery3').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title');
+			}
+		}
+	});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 		// OwlCarousel N1
 		$("#owl-demo").owlCarousel({
@@ -61,10 +110,11 @@ $('.popup-gallery').magnificPopup({
 		});
 		
 		$("#bu-demo1").owlCarousel({
-			 navigation : false, // Show next and prev buttons
+			  navigation : false, // Show next and prev buttons
 			  slideSpeed : 300,
+			  items : 3,
 			  paginationSpeed : 400,
-			  singleItem:true
+			  singleItem:false
 		})
 		
 		$("#bu-demo5").owlCarousel({
