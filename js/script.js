@@ -115,6 +115,7 @@ $(document).ready(function() {
 			itemsDesktopSmall : [979,3]
 		});
 		$("#bu-demo").owlCarousel({
+			lazyLoad : true,
 			  navigation : false, // Show next and prev buttons
 			  slideSpeed : 300,
 			  items : 5,
@@ -124,6 +125,7 @@ $(document).ready(function() {
 		})
 		
 		$("#bu-demo1").owlCarousel({
+			lazyLoad : true,
 			  navigation : false, // Show next and prev buttons
 			  slideSpeed : 300,
 			  items : 3,
@@ -132,6 +134,7 @@ $(document).ready(function() {
 		})
 		
 		$("#bu-demo5").owlCarousel({
+			lazyLoad : true,
 			  navigation : false, // Show next and prev buttons
 			  slideSpeed : 300,
 			  paginationSpeed : 400,
@@ -140,6 +143,7 @@ $(document).ready(function() {
 
 		// OwlCarousel N2
 		$("#owl-demo-1").owlCarousel({
+			lazyLoad : true,
 			  navigation : false, // Show next and prev buttons
 			  slideSpeed : 300,
 			  paginationSpeed : 400,
