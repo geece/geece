@@ -118,6 +118,7 @@ $(document).ready(function() {
 			  navigation : false, // Show next and prev buttons
 			  slideSpeed : 300,
 			  items : 5,
+			  nav: true,
 			  paginationSpeed : 400,
 			  singleItem:false
 		})
