@@ -117,7 +117,7 @@ $(document).ready(function() {
 		$("#bu-demo").owlCarousel({
 			  navigation : false, // Show next and prev buttons
 			  slideSpeed : 300,
-			  items : 3,
+			  items : 5,
 			  paginationSpeed : 400,
 			  singleItem:false
 		})
