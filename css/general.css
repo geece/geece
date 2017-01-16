@@ -267,6 +267,7 @@ color: #ECEBEB;
 	background: url(../img/intro/IMG_8461.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
+	text-shadow: 5px 5px green;
 }
 
 .intro-message {
