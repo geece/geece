@@ -75,6 +75,7 @@ margin: auto;
 .h1_home{
 	font-size: 80px;
 	font-family: 'cwTeXKai', serif;
+	src: url('../fonts/cwTeXKai-zhonly.ttf');
 	font-weight: 300;
 	letter-spacing: 6px;
 }
@@ -258,17 +259,19 @@ color: #ECEBEB;
 
 .intro-header {
 	font-family: 'cwTeXKai', serif;
+	src: url('../fonts/cwTeXKai-zhonly.ttf');
 	height: 100%; /* Full PAge */
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
 	color: #f8f8f8;
-	background: url(../img/intro/intro5x.jpg) no-repeat center center;
+	background: url(../img/intro/IMG_8461.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 }
 
 .intro-message {
 	font-family: 'cwTeXKai', serif;
+	src: url('../fonts/cwTeXKai-zhonly.ttf');
 	position: relative;
 	padding-top: 12%;
 	padding-bottom: 20%;
@@ -310,6 +313,7 @@ color: #ECEBEB;
 .content-section-a {
 	background-color: #f8f8f8;
 	font-family: 'cwTeXKai', serif;
+	src: url('../fonts/cwTeXKai-zhonly.ttf');
 	padding: 90px 0; 
 }
 
@@ -317,6 +321,7 @@ color: #ECEBEB;
 	border-top: 1px solid #e7e7e7;
 	border-bottom: 1px solid #e7e7e7;
 	font-family: 'cwTeXKai', serif;
+	src: url('../fonts/cwTeXKai-zhonly.ttf');
 	padding: 90px 0; 
 }
 
@@ -365,6 +370,7 @@ color: #ECEBEB;
 /* Style for form modal */
 .content-style-form {
 	font-family: 'cwTeXKai', serif;
+	src: url('../fonts/cwTeXKai-zhonly.ttf');
 	position: relative;
 	text-align: left;
 }
