@@ -142,7 +142,7 @@ $(document).ready(function() {
 		}
 	});
 
-			$('.popup-gallery-wet').magnificPopup({
+		$('.popup-gallery-wet').magnificPopup({
 			delegate: 'a',
 			type: 'image',
 			tLoading: 'Loading image #%curr%...',
