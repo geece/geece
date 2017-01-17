@@ -34,14 +34,14 @@ $(document).ready(function() {
 		//MagnificPopup
 		$('.image-link').magnificPopup({type:'image'});
 
-    $('.popup-gallery').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		tLoading: 'Loading image #%curr%...',
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
+		$('.popup-gallery').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
 			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
 		},
 		image: {
@@ -51,15 +51,15 @@ $(document).ready(function() {
 			}
 		}
 	});
-	
-	$('.popup-gallery2').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		tLoading: 'Loading image #%curr%...',
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
+
+		$('.popup-gallery2').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
 			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
 		},
 		image: {
@@ -69,15 +69,15 @@ $(document).ready(function() {
 			}
 		}
 	});
-	
-	$('.popup-gallery3').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		tLoading: 'Loading image #%curr%...',
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
+
+		$('.popup-gallery3').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
 			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
 		},
 		image: {
@@ -87,15 +87,15 @@ $(document).ready(function() {
 			}
 		}
 	});
-	
-	$('.popup-gallery4').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		tLoading: 'Loading image #%curr%...',
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
+
+		$('.popup-gallery4').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
 			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
 		},
 		image: {
@@ -105,7 +105,61 @@ $(document).ready(function() {
 			}
 		}
 	});
-	
+
+		$('.popup-gallery-cold').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title');
+			}
+		}
+	});
+
+		$('.popup-gallery-power').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title');
+			}
+		}
+	});
+
+			$('.popup-gallery-wet').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title');
+			}
+		}
+	});
+
 
 		// OwlCarousel N1
 		$("#owl-demo").owlCarousel({
@@ -122,7 +176,17 @@ $(document).ready(function() {
 			  nav: true,
 			  paginationSpeed : 400,
 			  singleItem:false
-		})
+			})
+
+		$("#wet-demo").owlCarousel({
+			lazyLoad : true,
+			  navigation : false, // Show next and prev buttons
+			  slideSpeed : 300,
+			  items : 5,
+			  nav: true,
+			  paginationSpeed : 400,
+			  singleItem:false
+			})
 
 		$("#cold-demo").owlCarousel({
 			lazyLoad : true,
@@ -132,7 +196,18 @@ $(document).ready(function() {
 			  nav: true,
 			  paginationSpeed : 400,
 			  singleItem:false
-		})
+			})
+
+		$("#power-demo").owlCarousel({
+			lazyLoad : true,
+			  navigation : false, // Show next and prev buttons
+			  slideSpeed : 300,
+			  items : 5,
+			  nav: true,
+			  paginationSpeed : 400,
+			  singleItem:false
+			})
+
 		
 		$("#bu-demo1").owlCarousel({
 			lazyLoad : true,
@@ -141,7 +216,7 @@ $(document).ready(function() {
 			  items : 3,
 			  paginationSpeed : 400,
 			  singleItem:false
-		})
+			})
 		
 		$("#bu-demo5").owlCarousel({
 			lazyLoad : true,
@@ -149,7 +224,7 @@ $(document).ready(function() {
 			  slideSpeed : 300,
 			  paginationSpeed : 400,
 			  singleItem:true
-		})
+			})
 
 		// OwlCarousel N2
 		$("#owl-demo-1").owlCarousel({
@@ -158,21 +233,21 @@ $(document).ready(function() {
 			  slideSpeed : 300,
 			  paginationSpeed : 400,
 			  singleItem:true
-		});
+			});
 
 		//SmothScroll
 		$('a[href*=#]').click(function() {
 			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-			&& location.hostname == this.hostname) {
-					var $target = $(this.hash);
-					$target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
-					if ($target.length) {
-							var targetOffset = $target.offset().top;
-							$('html,body').animate({scrollTop: targetOffset}, 600);
-							return false;
-					}
+				&& location.hostname == this.hostname) {
+				var $target = $(this.hash);
+			$target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+			if ($target.length) {
+				var targetOffset = $target.offset().top;
+				$('html,body').animate({scrollTop: targetOffset}, 600);
+				return false;
 			}
-		});
+		}
+	});
 		
 		//Subscribe
 		new UIMorphingButton( document.querySelector( '.morph-button' ) );
@@ -181,5 +256,5 @@ $(document).ready(function() {
 			bttn.addEventListener( 'click', function( ev ) { ev.preventDefault(); } );
 		} );
 
-});
+	});
 
