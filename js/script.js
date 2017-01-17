@@ -123,6 +123,16 @@ $(document).ready(function() {
 			  paginationSpeed : 400,
 			  singleItem:false
 		})
+
+		$("#cold-demo").owlCarousel({
+			lazyLoad : true,
+			  navigation : false, // Show next and prev buttons
+			  slideSpeed : 300,
+			  items : 5,
+			  nav: true,
+			  paginationSpeed : 400,
+			  singleItem:false
+		})
 		
 		$("#bu-demo1").owlCarousel({
 			lazyLoad : true,
