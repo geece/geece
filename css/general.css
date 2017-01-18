@@ -264,7 +264,7 @@ color: #ECEBEB;
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
 	color: #f8f8f8;
-	background: url(../img/intro/IMG_8461.jpg) no-repeat center center;
+	background: url(../img/intro/intro6.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 	text-shadow: 5px 5px green;
@@ -1092,7 +1092,7 @@ color: #ECEBEB;
 			padding-top: 50px;
 			padding-bottom: 50px;
 			color: #f8f8f8;
-		    background-image: url(../img/intro/intro5.jpg) no-repeat center center;
+		    background-image: url(../img/intro/intro6.jpg) no-repeat center center;
 			background-size: cover;
 			text-align: center;
 			background-color: #34495e;
