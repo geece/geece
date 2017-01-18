@@ -161,6 +161,25 @@ $(document).ready(function() {
 	});
 
 
+		$('.popup-gallery-air').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title');
+			}
+		}
+	});
+
+
 		// OwlCarousel N1
 		$("#owl-demo").owlCarousel({
 			autoPlay: 3000,
@@ -179,6 +198,15 @@ $(document).ready(function() {
 			})
 
 		$("#wet-demo").owlCarousel({
+			lazyLoad : true,
+			  navigation : false, // Show next and prev buttons
+			  slideSpeed : 300,
+			  items : 5,
+			  nav: true,
+			  paginationSpeed : 400,
+			  singleItem:false
+			})
+		$("#air-demo").owlCarousel({
 			lazyLoad : true,
 			  navigation : false, // Show next and prev buttons
 			  slideSpeed : 300,
