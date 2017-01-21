@@ -314,8 +314,7 @@ color: #ECEBEB;
 .content-section-a {
 	background-color: #5E3737;
 	color:#ffffff;
-	font-family: 'cwTeXKai', serif;
-	src: url('../fonts/cwTeXKai-zhonly.ttf');
+	font-family: 'cwtexming', serif;
 	padding: 90px 0; 
 }
 
@@ -324,8 +323,7 @@ color: #ECEBEB;
 	color:#ffffff;
 	border-top: 1px solid #e7e7e7;
 	border-bottom: 1px solid #e7e7e7;
-	font-family: 'cwTeXKai', serif;
-	src: url('../fonts/cwTeXKai-zhonly.ttf');
+	font-family: 'cwtexming', serif;
 	padding: 90px 0; 
 }
 
