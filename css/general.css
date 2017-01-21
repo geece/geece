@@ -40,36 +40,36 @@ body, html {
 }
 
 .lead2 {
-margin-bottom: 30px;
-margin-top: 20px;
-font-size: 18px;
-line-height: 1.46428571;
-font-weight: 300;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 1.46428571;
+	font-weight: 300;
 }
 
 .lead3 {
-margin-bottom: 0px;
-margin-top: 0px;
-font-size: 16px;
-color: #8D8D8D;
-line-height: 1.46428571;
-font-weight: 300;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 16px;
+	color: #8D8D8D;
+	line-height: 1.46428571;
+	font-weight: 300;
 }
 
 .float {
--webkit-animation-name: floatingx;
--webkit-animation-duration: 4s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-timing-function: ease-in-out;
--moz-animation-name: floating;
--moz-animation-duration: 4s;
--moz-animation-iteration-count: infinite;
--moz-animation-timing-function: ease-in-out;
+	-webkit-animation-name: floatingx;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	-moz-animation-name: floating;
+	-moz-animation-duration: 4s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: ease-in-out;
 }
 
 .phone-image {
-max-width: 250px;
-margin: auto;
+	max-width: 250px;
+	margin: auto;
 }
 
 .h1_home{
@@ -85,43 +85,43 @@ margin: auto;
 /*own carousel */
 
 #owl-demo .item{
-  margin: 3px;
+	margin: 3px;
 }
 #owl-demo .item img{
-  display: block;
-  width: 100%;
-  height: auto;
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 #owl-demo-1 .item{
-  margin: 3px;
+	margin: 3px;
 }
 #owl-demo-1 .item img{
-  display: block;
-  width: 100%;
-  height: auto;
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 #owl-demo-1 .item{
-  margin: 3px;
+	margin: 3px;
 }
 #bu-demo-1 .item img{
-  display: block;
-  width: 100%;
-  height: auto;
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 #bu-demo-1 .item{
-  margin: 3px;
+	margin: 3px;
 }
 
 
 
 /*magnific */
 .mfp-bg {
-background: #000000 !important;
-opacity: 0.95 !important;
-filter: alpha(opacity=95) !important;
+	background: #000000 !important;
+	opacity: 0.95 !important;
+	filter: alpha(opacity=95) !important;
 }
 
 .item .img-responsive {cursor:url(../img/cross.png),auto;}
@@ -169,7 +169,7 @@ filter: alpha(opacity=95) !important;
 }
 
 .button_down img {
-width: 50px;
+	width: 50px;
 	
 }
 .btn-primary {
@@ -210,7 +210,7 @@ width: 50px;
 }
 
 .owl-theme .owl-controls .owl-page span {
-background: #1abc9c !important;
+	background: #1abc9c !important;
 }
 
 /* Nav */
@@ -232,18 +232,18 @@ background: #1abc9c !important;
 }
 
 .navbar-default .navbar-nav>li>a {
-color: #ffffff;
+	color: #ffffff;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-color: #ECEBEB;
+	color: #ECEBEB;
 }
 
 .navbar-default .navbar-brand {
-color: #ffffff;
+	color: #ffffff;
 }
 .navbar-default .navbar-brand:hover {
-color: #ECEBEB;
+	color: #ECEBEB;
 }
 
 .navbar-brand {
@@ -257,9 +257,16 @@ color: #ECEBEB;
 	font-weight: 400;
 }
 
+@keyframes run {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -($spriteWidth * 12) 0; // 12帧
+  }
+}
 .intro-header {
-	font-family: 'cwTeXKai', serif;
-	src: url('../fonts/cwTeXKai-zhonly.ttf');
+	font-family: 'cwtexming', serif;
 	height: 100%; /* Full PAge */
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
@@ -268,11 +275,14 @@ color: #ECEBEB;
 	background-size: cover;
 	text-align: center;
 	text-shadow: 5px 5px green;
+	background-position: 0px 0px;
+	animation:  infinite;
 }
 
+
+
 .intro-message {
-	font-family: 'cwTeXKai', serif;
-	src: url('../fonts/cwTeXKai-zhonly.ttf');
+	font-family: 'cwtexming', serif;
 	position: relative;
 	padding-top: 12%;
 	padding-bottom: 20%;
@@ -284,7 +294,7 @@ color: #ECEBEB;
 .intro-message > h1 {
 	margin: 0;
 	font-size: 5em;
-	font-family: 'cwTeXKai', serif;
+	font-family: 'cwtexming', serif;
 	font-weight: 400;
 	letter-spacing: 3px;
 }
@@ -298,7 +308,7 @@ color: #ECEBEB;
 .intro-message > h3 {
 	margin: 0;
 	font-size: 2.8em;
-	font-family: 'cwTeXKai', serif;
+	font-family: 'cwtexming', serif;
 	font-weight: 300;
 	letter-spacing: 0px;
 	margin-top: 10px;
@@ -346,25 +356,25 @@ color: #ECEBEB;
 
 /* Animate */
 .rotate{
-    -webkit-transition-duration: 0.8s;
-    -moz-transition-duration: 0.8s;
-    -o-transition-duration: 0.8s;
-    transition-duration: 0.8s;
-     
-    -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
-    -o-transition-property: -o-transform;
-    transition-property: transform;
-     
-    overflow:hidden;
- 
-    }  
- 
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	-o-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	transition-property: transform;
+
+	overflow:hidden;
+
+}  
+
 .rotate:hover  
 {
-    -webkit-transform:rotate(360deg);
-    -moz-transform:rotate(360deg);
-    -o-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
 }  
 
 
@@ -872,7 +882,7 @@ color: #ECEBEB;
 
 .morph-button-modal-2.open .morph-content > div,
 .morph-button-modal-3.open .morph-content > div {
- 	-webkit-transition: opacity 0.3s 0.3s;
+	-webkit-transition: opacity 0.3s 0.3s;
 	transition: opacity 0.3s 0.3s;
 }
 
@@ -1075,43 +1085,43 @@ color: #ECEBEB;
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	
-		h1, .h1 {
-			font-size: 50px;
-		}
-		
-		h3, .h3 {
-			font-size: 20px;
-		}
-		
+	h1, .h1 {
+		font-size: 50px;
+	}
+
+	h3, .h3 {
+		font-size: 20px;
+	}
+
 }
 
 
 /* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {
-		.intro-header {
-			height: 100%;
-			padding-top: 50px;
-			padding-bottom: 50px;
-			color: #f8f8f8;
-		    background-image: url(../img/intro/intro6.jpg) no-repeat center center;
-			background-size: cover;
-			text-align: center;
-			background-color: #34495e;
-		}
-		
-		h1, .h1 {
-			font-size: 30px;
-		}
-		
-		h3, .h3 {
-			font-size: 20px;
-		}
-		#gallery1{display:none}
-		
-		.button_down {display:none}
-		
-		
+@media only screen and (max-width: 767px) {
+	.intro-header {
+		height: 100%;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		color: #f8f8f8;
+		background-image: url(../img/intro/intro6.jpg) no-repeat center center;
+		background-size: cover;
+		text-align: center;
+		background-color: #34495e;
 	}
+
+	h1, .h1 {
+		font-size: 30px;
+	}
+
+	h3, .h3 {
+		font-size: 20px;
+	}
+	#gallery1{display:none}
+
+	.button_down {display:none}
+
+
+}
 
 /* Mobile Landscape */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
