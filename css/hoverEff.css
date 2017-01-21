@@ -23,6 +23,10 @@
         animation-iteration-count: infinite;
 }
 
+.highlight {
+  border: 10px solid orange;
+  background: transparent;
+}
 
 .hovereffect {
   width: 100%;
