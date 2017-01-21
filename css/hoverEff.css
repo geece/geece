@@ -24,12 +24,12 @@
  }
 
  .highlight {
-  border: 10px solid orange;
+  border: 8px solid orange;
   background: transparent;
 }
 
  .whiteborder {
-  border: 10px solid white;
+  border: 8px solid white;
   background: transparent;
 }
 
@@ -117,4 +117,39 @@
 
 .hovereffect a.info:hover {
   box-shadow: 0 0 5px #fff;
+}
+
+.ulg {
+  margin: 0;
+  padding: 0;
+}
+
+.ulg body {
+  background: #333;
+}
+
+.ulg div {
+  width: 900px;
+  margin: 0 auto;
+  overflow: auto;
+}
+.ulg ul {
+  list-style-type: none;
+}
+
+.ulg li img {
+  float: left;
+  margin: 10px;
+  border: 5px solid #fff;
+
+  -webkit-transition: box-shadow 0.5s ease;
+  -moz-transition: box-shadow 0.5s ease;
+  -o-transition: box-shadow 0.5s ease;
+  -ms-transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease;
+}
+
+.ulg li img:hover {
+  -webkit-box-shadow: 0px 0px 7px rgba(255,255,255,0.9);
+  box-shadow: 0px 0px 7px rgba(255,255,255,0.9);
 }
