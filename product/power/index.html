@@ -38,6 +38,9 @@
  	<!-- Magnific Popup core CSS file -->
  	<link rel="stylesheet" href="/geece/css/magnific-popup.css"> 
 
+ 	<!-- 邊框 CSS file -->
+ 	<link href="/geece/css/hoverEff.css" rel="stylesheet">
+
  	<script src="/geece/js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
 	<!--[if IE 9]>
 		<script src="js/PIE_IE9.js"></script>
@@ -64,7 +67,7 @@
 		<div id="whatis" class="content-section-a" style="border-top: 0">
 			<div class="container">
 
-				<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<div class="col-md-6 col-md-offset-3 text-center wrap_title highlight">
 					<h2>服務項目</h2>
 					<p class="lead" style="margin-top:0"></p>
 					<a href="https://geece.github.io/geece/#whatis"
@@ -81,41 +84,91 @@
 		<div id="div-link3" class="content-section-b">
 			<div class="container">
 				<div class="row" >
-					<div class="col-md-6 col-md-offset-3 text-center wrap_title " style="text-align: center" >
-						<a href="https://geece.github.io/geece/#whatis">
-							<h3>機電</h3>
-							<p class="lead">規劃五大系統<br>
-								電力 消防 空調 排給水 弱電
-							</p>
-						</a>
+					<div class="col-md-6 col-md-offset-3 text-center wrap_title highlight" style="text-align: center" >
+						<h3>機電</h3>
+						<p class="lead">規劃五大系統<br>
+							電力 消防 空調 排給水 弱電
+						</p>		
 					</div>
 				</div>
-				<div class="row wow bounceInUp" >
-					<div id="power-demo" class="lazyOwl owl-carousel popup-gallery-power">			  
-						<a href="img/real/power/power_1.jpg" title="大型電盤" alt="大型電盤">
-							<img class="img-responsive img-rounded thumbnail" src="/geece/img/preview/power/power_1.jpg" title="大型電盤"  alt="大型電盤">				 
-						</a> 
-						<a href="/geece/img/real/power/power_1.1.jpg" title="大型電盤" alt="大型電盤" >
-							<img class="img-responsive img-rounded thumbnail" src="/geece/img/preview/power/power_1.1.jpg" title="大型電盤"  alt="大型電盤">				 
-						</a> 
-						<a href="/geece/img/real/power/power_2.jpg" title="消防系統" alt="消防系統">
-							<img class="img-responsive img-rounded thumbnail" src="/geece/img/preview/power/power_2.jpg" title="消防系統"  alt="消防系統">				 
-						</a> 
-						<a href="/geece/img/real/power/power_3.jpg" title="灑水配置"  alt="灑水配置">
-							<img class="img-responsive img-rounded thumbnail" src="/geece/img/preview/power/power_3.jpg" title="灑水配置"  alt="灑水配置">				 
-						</a> 
-						<a href="/geece/img/real/power/power_4.jpg" title="貨架灑水頭配置" alt="貨架灑水頭配置">
-							<img class="img-responsive img-rounded thumbnail" src="/geece/img/preview/power/power_4.jpg" title="貨架灑水頭配置"  alt="貨架灑水頭配置">				 
-						</a> 
-						<a href="/geece/img/real/power/power_5.jpg" title="發電機" alt="發電機">
-							<img class="img-responsive img-rounded thumbnail" src="/geece/img/preview/power/power_5.jpg" title="發電機"  alt="發電機">				 
-						</a> 
-						<a href="/geece/img/real/power/power_6.jpg" title="發電機配電盤" alt="發電機配電盤">
-							<img class="img-responsive img-rounded thumbnail" src="/geece/img/preview/power/power_6.jpg" title="發電機配電盤"  alt="發電機配電盤">				 
-						</a> 
-						<a href="/geece/img/real/power/power_7.jpg" title="空調配電盤" alt="空調配電盤" >
-							<img class="img-responsive img-rounded thumbnail" src="/geece/img/preview/power/power_7.jpg" title="空調配電盤"  alt="空調配電盤">				 
-						</a> 
+				<div class="popup-gallery-power">	
+					<div class="row wow bounceInUp" >	
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  thumbnail  rotateY highlight" >						  
+							<a href="img/real/power/power_1.jpg" title="大型電盤" alt="大型電盤">
+								<img class="img-responsive img-rounded thumbnail" src="/geece/img/preview/power/power_1.jpg" title="大型電盤"  alt="大型電盤">				 
+							</a> 
+							<div class="caption">
+									<h3 itemprop="name">大型電盤</h3>												
+								</div>
+						</div>
+
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  thumbnail  rotateY highlight" >
+							<a href="/geece/img/real/power/power_1.1.jpg" title="大型電盤" alt="大型電盤" >
+								<img class="img-responsive img-rounded thumbnail" src="/geece/img/preview/power/power_1.1.jpg" title="大型電盤"  alt="大型電盤">				 
+							</a> 
+							<div class="caption">
+									<h3 itemprop="name">大型電盤</h3>												
+								</div>
+						</div>
+
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  thumbnail  rotateY highlight" >
+							<a href="/geece/img/real/power/power_2.jpg" title="消防系統" alt="消防系統">
+								<img class="img-responsive img-rounded thumbnail" src="/geece/img/preview/power/power_2.jpg" title="消防系統"  alt="消防系統">				 
+							</a> 
+							<div class="caption">
+									<h3 itemprop="name">消防系統</h3>												
+								</div>
+						</div>
+
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  thumbnail  rotateY highlight" >
+							<a href="/geece/img/real/power/power_3.jpg" title="灑水配置"  alt="灑水配置">
+								<img class="img-responsive img-rounded thumbnail" src="/geece/img/preview/power/power_3.jpg" title="灑水配置"  alt="灑水配置">				 
+							</a> 
+							<div class="caption">
+									<h3 itemprop="name">灑水配置</h3>												
+								</div>
+						</div>
+					</div>
+
+					<div class="row wow bounceInUp" >
+
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  thumbnail  rotateY highlight" >
+							<a href="/geece/img/real/power/power_4.jpg" title="貨架灑水頭配置" alt="貨架灑水頭配置">
+								<img class="img-responsive img-rounded thumbnail" src="/geece/img/preview/power/power_4.jpg" title="貨架灑水頭配置"  alt="貨架灑水頭配置">				 
+							</a> 
+							<div class="caption">
+									<h3 itemprop="name">貨架灑水頭配置</h3>												
+								</div>
+						</div>
+
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  thumbnail  rotateY highlight" >
+							<a href="/geece/img/real/power/power_5.jpg" title="發電機" alt="發電機">
+								<img class="img-responsive img-rounded thumbnail" src="/geece/img/preview/power/power_5.jpg" title="發電機"  alt="發電機">				 
+							</a> 
+							<div class="caption">
+									<h3 itemprop="name">發電機</h3>												
+								</div>
+						</div>
+
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  thumbnail  rotateY highlight" >
+							<a href="/geece/img/real/power/power_6.jpg" title="發電機配電盤" alt="發電機配電盤">
+								<img class="img-responsive img-rounded thumbnail" src="/geece/img/preview/power/power_6.jpg" title="發電機配電盤"  alt="發電機配電盤">				 
+							</a> 
+							<div class="caption">
+									<h3 itemprop="name">發電機配電盤</h3>												
+								</div>
+						</div>
+
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  thumbnail  rotateY highlight" >
+							<a href="/geece/img/real/power/power_7.jpg" title="空調配電盤" alt="空調配電盤" >
+								<img class="img-responsive img-rounded thumbnail" src="/geece/img/preview/power/power_7.jpg" title="空調配電盤"  alt="空調配電盤">				 
+							</a> 
+							<div class="caption">
+									<h3 itemprop="name">空調配電盤</h3>												
+								</div>
+						</div>
+
+
 						
 					</div>      	
 
