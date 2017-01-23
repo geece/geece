@@ -28,23 +28,44 @@
   background: transparent;
 }
 
- .whiteborder {
+.whiteborder {
   border: 8px solid white;
   background: transparent;
 }
 
+
+.achievements a {
+  font-size:10px;
+  color:#ffffff;
+}
+
 .achievements ul {
-    list-style: none;
-    display:table;
-    table-layout: fixed;
-    border-spacing: 2px;
+  list-style: none;
+  display:table;
+  table-layout: fixed;
+  border-spacing: 2px;
+  padding: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .achievements  li { 
-  display:table-cell;
-  background:red; 
-  font-size:15px;
-  color:white;
+ clear: both;
+ display:table-cell; 
+ font-size:15px;
+ color:#ffffff;
+
+background: tomato;
+  padding: 5px;
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
 }
 
 .hovereffect {
