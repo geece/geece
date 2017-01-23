@@ -1121,12 +1121,11 @@ body, html {
 
 	.button_down {display:none}
 
-
+	.img-none{ display: none}
 }
 
 /* Mobile Landscape */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
-	
 	
 	
 }

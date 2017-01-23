@@ -324,6 +324,22 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 	margin-bottom: 20px;
 }
 
+/* 為了格子一樣 */
+.vertical-align {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+  display: inline-flex;
+  align-items: center;     /* Align the flex-items vertically */
+  justify-content: center; /* Optional, to align inner flex-items
+                              horizontally within the column  */
+}
+
+
+
 
 
 /* Responsive Stuff */
