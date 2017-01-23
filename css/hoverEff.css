@@ -33,7 +33,19 @@
   background: transparent;
 }
 
+.achievements ul {
+    list-style: none;
+    display:table;
+    table-layout: fixed;
+    border-spacing: 2px;
+}
 
+.achievements  li { 
+  display:table-cell;
+  background:red; 
+  font-size:15px;
+  color:white;
+}
 
 .hovereffect {
   width: 100%;

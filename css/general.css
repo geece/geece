@@ -266,7 +266,7 @@ body, html {
   }
 }
 .intro-header {
-	font-family: 'cwtexming', serif;
+	font-family: '微軟正黑體', serif;
 	height: 100%; /* Full PAge */
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
@@ -282,7 +282,7 @@ body, html {
 
 
 .intro-message {
-	font-family: 'cwtexming', serif;
+	font-family: '微軟正黑體', serif;
 	position: relative;
 	padding-top: 12%;
 	padding-bottom: 20%;
@@ -295,7 +295,7 @@ body, html {
 .intro-message > h1 {
 	margin: 0;
 	font-size: 5em;
-	font-family: 'cwtexming', serif;
+	font-family: '微軟正黑體', serif;
 	font-weight: 400;
 	letter-spacing: 3px;
 }
@@ -309,7 +309,7 @@ body, html {
 .intro-message > h3 {
 	margin: 0;
 	font-size: 2.8em;
-	font-family: 'cwtexming', serif;
+	font-family: '微軟正黑體', serif;
 	font-weight: 300;
 	letter-spacing: 0px;
 	margin-top: 10px;
@@ -323,18 +323,18 @@ body, html {
 }
 
 .content-section-a {
-	background-color: #250101;
+	background-color: #1b1919;
 	color:#ffffff;
-	font-family: 'cwtexming', serif;
+	font-family: '微軟正黑體', serif;
 	padding: 90px 0; 
 }
 
 .content-section-b {
-	background-color: #250101;
+	background-color: #1b1919;
 	color:#ffffff;
 	border-top: 1px solid #e7e7e7;
 	border-bottom: 1px solid #e7e7e7;
-	font-family: 'cwtexming', serif;
+	font-family: '微軟正黑體', serif;
 	padding: 90px 0; 
 }
 
