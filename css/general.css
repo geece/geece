@@ -327,15 +327,16 @@ body, html {
 	color:#ffffff;
 	font-family: '微軟正黑體', serif;
 	padding: 90px 0; 
+	background: url(../img/intro/dark_fish_skin_@2X.png) repeat   ;
 }
 
 .content-section-b {
 	background-color: #282626;
 	color:#ffffff;
-	border-top: 1px solid #e7e7e7;
-	border-bottom: 1px solid #e7e7e7;
+	
 	font-family: '微軟正黑體', serif;
-	padding: 90px 0; 
+	padding: 90px 0;
+	background: url(../img/intro/dark_fish_skin_@2X.png) repeat   ; 
 }
 
 .section-heading {
