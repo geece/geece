@@ -258,12 +258,12 @@ body, html {
 }
 
 @keyframes run {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: -($spriteWidth * 12) 0; // 12帧
-  }
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: -($spriteWidth * 12) 0; // 12帧
+	}
 }
 .intro-header {
 	font-family: '微軟正黑體', serif;
@@ -1118,11 +1118,16 @@ body, html {
 	h3, .h3 {
 		font-size: 20px;
 	}
-	#gallery1{display:none}
+	#gallery1{display:none;}
 
-	.button_down {display:none}
+	.button_down {display:none;}
 
-	.img-none{ display: none}
+	.img-none{ display: none;}
+	
+	.whiteborder {
+		border-style: hidden;
+
+	}
 }
 
 /* Mobile Landscape */
