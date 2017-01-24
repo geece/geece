@@ -19,6 +19,20 @@ $(document).ready(function() {
 			$(this).toggleClass("animated shake");
 		});
 		
+		$(".navbar-brand").hover(function () {
+			$(this).toggleClass("animated shake");
+		});
+
+		$("#topnav li").hover(function(){
+			console.log(5 + 6);	
+			$("#topnav li").css("background","orange");	
+			$(this).css({"background-image":"url(img/real/cold/大型冷藏庫.jpg)"
+				,"-webkit-background-size": "cover"
+				," -moz-background-size": "cover"
+				," -o-background-size": "cover"
+				,"background-size": "cover"});
+		});
+
 		//animated scroll_arrow
 		$(".img_scroll").hover(function () {
 			$(this).toggleClass("animated infinite bounce");
@@ -52,14 +66,14 @@ $(document).ready(function() {
 		}
 	});
 		$('.image-popup-vertical-fit').magnificPopup({
-		type: 'image',
-		closeOnContentClick: true,
-		mainClass: 'mfp-img-mobile',
-		image: {
-			verticalFit: true
-		}
-		
-	});
+			type: 'image',
+			closeOnContentClick: true,
+			mainClass: 'mfp-img-mobile',
+			image: {
+				verticalFit: true
+			}
+
+		});
 
 		$('.popup-gallery2').magnificPopup({
 			delegate: 'a',
