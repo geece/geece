@@ -24,9 +24,10 @@ $(document).ready(function() {
 		});
 
 		$("#topnav li").hover(function(){
-			console.log(5 + 6);	
 			$("#topnav li").css("background","orange");	
-			$(this).css({"background-image":"url(img/real/cold/大型冷藏庫.jpg)"
+			var a=$(this).attr("value");
+			console.log(a);
+			$(this).css({"background-image":a
 				,"-webkit-background-size": "cover"
 				," -moz-background-size": "cover"
 				," -o-background-size": "cover"
