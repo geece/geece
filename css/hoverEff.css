@@ -47,7 +47,7 @@
 
 .achievements a {
   color:#ffffff;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .achievements ul {
@@ -60,7 +60,7 @@
 }
 
 .achievements li { 
- height: 90px;
+ height: 100px;
  width:82px; 
  display:table-cell; 
  background: orange;
@@ -68,7 +68,7 @@
 
 .corp a {
   color:#ffffff;
-  font-size: 12px;
+  font-size: 15px;
 }
 .corp ul {
   list-style: none;
@@ -76,12 +76,12 @@
   table-layout: fixed;
   border-spacing: 1px;
   word-wrap:break-word;
-  width:330px; 
+  width:380px; 
 }
 
 .corp li { 
- height: 90px;
- width:82px; 
+ height: 100px;
+ width:100px; 
  display:table-cell; 
  background:  #66B3FF;
 }
