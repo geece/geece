@@ -70,6 +70,8 @@
   color:#ffffff;
   font-size: 15px;
 }
+
+
 .corp ul {
   list-style: none;
   display:table;
@@ -85,7 +87,9 @@
  display:table-cell; 
  background:  #66B3FF;
 }
-
+.corp li:hover {
+  opacity:0.7;
+}
  .achievements li:hover {
    /* background-image: url(../img/real/cold/大型冷藏庫.jpg);
     -webkit-background-size: cover;
